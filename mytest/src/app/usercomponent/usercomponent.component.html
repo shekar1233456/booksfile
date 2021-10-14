@@ -1,0 +1,18 @@
+<div>
+
+<h1>Book Title : {{title}}</h1>
+
+<h2>Number Of Pages : {{pages}}</h2>
+
+<h2>MediumLink Image :<img [src]="mediumLink"/></h2>
+</div>
+<br>
+
+<h1>Table contents</h1>
+
+<ul >
+    <li *ngFor="let contes of tableofcont">{{contes.title}}</li>
+
+
+</ul>
+
